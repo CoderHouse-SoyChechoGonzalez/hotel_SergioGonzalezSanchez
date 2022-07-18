@@ -1,0 +1,30 @@
+.Navbar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5em;
+	margin-block: 1em;
+}
+.NavbarList {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5em;
+}
+.ItemList {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5rem 1rem;
+	gap: 1.5em;
+}
+.NavbarList li a {
+	color: var(--white);
+	font-size: 1em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.LanguageBox {
+	background: var(--dark);
+	padding: 0.5em 1em;
+}
