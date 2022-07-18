@@ -9,14 +9,14 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const iconToggleClose = {
-        fontSize: '4em',
+        fontSize: '3em',
         position: 'absolute',
         right: '0.3em',
         top: '0.3em',
         color: '#000',
     }
     const iconToggleOpen = {
-        fontSize: '4em',
+        fontSize: '3em',
         position: 'absolute',
         right: '0.3em',
         top: '0.3em',

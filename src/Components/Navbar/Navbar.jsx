@@ -3,12 +3,14 @@ import './Navbar.css';
 import Logo from "../Logo/Logo";
 import { NavLink } from "react-router-dom";
 import { ReactCountryFlag } from "react-country-flag";
+import CartWidget from "../CartWidget/CartWidget";
 
 const Navbar = () => {
 
 
     return (
         <nav className='Navbar'>
+          <CartWidget />
           <Logo />
           <ul className='NavbarList'>
             <li>
